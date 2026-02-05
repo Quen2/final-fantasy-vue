@@ -70,18 +70,21 @@
         this.bossHp -= dmg;
         this.message = this.playerName + " a frappé " + this.bossName + " pour " + dmg + " dégats.";
         this.checkGameState()
+        if (this.gameIsOver) return;
         this.enemyTurn()
       },
       heavyStrike(dmg) {
         this.bossHp -= dmg;
         this.message = this.playerName + " a frappé " + this.bossName + " pour " + dmg + " dégats.";
         this.checkGameState()
+        if (this.gameIsOver) return;
         this.enemyTurn()
       },
       healPlayer(amount) {
         this.playerHp += amount;
         this.message = this.playerName + " a récupéré " + amount + " pv.";
         this.checkGameState()
+        if (this.gameIsOver) return;
         this.enemyTurn()
       },
       enemyTurn() {
