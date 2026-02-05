@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca89abbd-50cd-4ad8-bcec-06729c7262cd" name="Changes" comment="[~] base game is done, working on style">
+      <change beforePath="$PROJECT_DIR$/final-fight/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/final-fight/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final-fight/src/Components/ActionButtons.vue" beforeDir="false" afterPath="$PROJECT_DIR$/final-fight/src/Components/ActionButtons.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final-fight/src/Components/PlayerPannel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/final-fight/src/Components/PlayerPannel.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/voltz/OneDrive/Desktop/ForEach/Javascript-Typescript/Typescript/ff" value="39FLgDZaeo27v432D6CfPaTfjus" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Quen2&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Quen2/final-fantasy-vue.git&quot;,
+    &quot;accountId&quot;: &quot;2df0761a-27b6-447c-92d6-cfc3b33e4c7e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="39FLgDZaeo27v432D6CfPaTfjus" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\voltz\OneDrive\Desktop\ForEach\Javascript-Typescript\Typescript\ff\final-fight\public\assets" />
+      <recent name="C:\Users\voltz\OneDrive\Desktop\ForEach\Javascript-Typescript\Typescript\ff\final-fight\static" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca89abbd-50cd-4ad8-bcec-06729c7262cd" name="Changes" comment="" />
+      <created>1770286981604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770286981604</updated>
+      <workItem from="1770286983269" duration="9363000" />
+    </task>
+    <task id="LOCAL-00001" summary="[~] Every components are done, working on methods">
+      <option name="closed" value="true" />
+      <created>1770289394318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770289394318</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[~] base game is done, working on style">
+      <option name="closed" value="true" />
+      <created>1770297635795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770297635795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[~] Every components are done, working on methods" />
+    <MESSAGE value="[~] base game is done, working on style" />
+    <option name="LAST_COMMIT_MESSAGE" value="[~] base game is done, working on style" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

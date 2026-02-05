@@ -1,30 +1,35 @@
 <template>
-  <div class="w-screen h-screen flex flex-col justify-center items-center">
-    <div class="flex flex-col w-3/4 h-3/4 bg-gray-400">
-      <div class="flex justify-between p-4">
+  <div class="w-screen h-screen flex justify-center items-center bg-linear-to-br from-black to-gray-900">
+    <div class="flex flex-col w-4/5 max-w-4xl bg-gray-700 rounded-2xl shadow-2xl overflow-hidden">
+
+      <!-- Zone combat -->
+      <div class="flex justify-between p-6">
         <PlayerPannel
-            :max-hp="playerHp"
+            :max-hp="50"
             :hp="playerHp"
             :name="playerName"
             :asset="playerAsset"
         />
         <PlayerPannel
-            :max-hp="bossHp"
+            :max-hp="50"
             :hp="bossHp"
             :name="bossName"
             :asset="bossAsset"
         />
       </div>
+      <!-- Actions -->
       <ActionButtons
           @lightStrike="lightStrike"
           @heavyStrike="heavyStrike"
           @healPlayer="healPlayer"
           :gameIsOver="gameIsOver"
       />
+      <!-- Message -->
       <StatusMessage :message="message" />
     </div>
   </div>
 </template>
+
 
 <script>
   import PlayerPannel from "@/Components/PlayerPannel.vue";
@@ -76,6 +81,8 @@
       },
       checkGameState() {
         if (this.bossHp <= 0 || this.playerHp <= 0) {
+          if (this.bossHp <= 0) { this.bossHp = 0 }
+          if (this.playerHp <= 0) { this.playerHp = 0 }
           this.gameIsOver = true;
           this.message = this.bossHp <= 0 ? this.playerName + " a gagné." : this.bossName + " a gagné.";
         }
