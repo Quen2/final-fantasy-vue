@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col text-center">
     <p>{{ name }}</p>
-    <div class="flex">
-      {{ hp }} / {{ maxHp }} hp
-    </div>
+    <p class="text-center"> {{ hp }} / {{ maxHp }} hp </p>
+    <img :src="'../../public/assets/' + asset" :alt="name"
+    class="w-1/2"/>
   </div>
 </template>
 
@@ -21,6 +21,10 @@
       },
       maxHp: {
         type: Number,
+        required: true
+      },
+      asset: {
+        type: String,
         required: true
       }
     }

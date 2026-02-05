@@ -1,6 +1,6 @@
 <template>
   <div class="text-center text-xl">
-    <p>{{ message }}</p>
+    <p class="whitespace-pre">{{ message }}</p>
   </div>
 </template>
 
